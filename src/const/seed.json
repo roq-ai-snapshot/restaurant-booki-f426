@@ -1,0 +1,1232 @@
+[
+  {
+    "table": [
+      {
+        "id": "17cd0151-6694-425b-9db5-5daf6c150009",
+        "number": 13856,
+        "status": "Available",
+        "created_at": "2023-08-06T09:59:35.155Z",
+        "updated_at": "2023-08-06T15:03:43.250Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e719ebe5-228a-4083-84f4-b315bc3aa3e3",
+        "number": 65158,
+        "status": "Occupied",
+        "created_at": "2023-08-06T15:36:30.130Z",
+        "updated_at": "2023-08-06T10:59:16.989Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fc150e24-a824-4156-9ae7-d63813b1b120",
+        "number": 40543,
+        "status": "Reserved",
+        "created_at": "2023-08-06T12:38:16.996Z",
+        "updated_at": "2023-08-06T21:30:27.026Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3519e6fe-1477-4735-b1a4-ff79c1026a46",
+        "number": 39301,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T20:19:48.732Z",
+        "updated_at": "2023-08-07T04:50:04.497Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "836cc7d5-eec3-44f5-b96c-d1b8b70a4244",
+        "number": 19322,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-07T05:10:52.261Z",
+        "updated_at": "2023-08-06T14:53:43.020Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "757badea-4ad9-4234-8b3b-a6de3bfd68a7",
+        "time": "2023-08-07T03:24:54.927Z",
+        "created_at": "2023-08-06T19:36:46.468Z",
+        "updated_at": "2023-08-06T15:46:50.889Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "e719ebe5-228a-4083-84f4-b315bc3aa3e3"
+      },
+      {
+        "id": "df9936fc-b266-4ec7-a5ac-4dba714d6abe",
+        "time": "2023-08-06T16:17:14.131Z",
+        "created_at": "2023-08-07T04:11:34.871Z",
+        "updated_at": "2023-08-06T12:54:27.727Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "17cd0151-6694-425b-9db5-5daf6c150009"
+      },
+      {
+        "id": "4270f96a-0f36-4365-8644-34f4ca8fd790",
+        "time": "2023-08-07T00:41:54.746Z",
+        "created_at": "2023-08-07T05:55:37.405Z",
+        "updated_at": "2023-08-07T02:55:14.457Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "fc150e24-a824-4156-9ae7-d63813b1b120"
+      },
+      {
+        "id": "35e6ff77-2ea0-4c12-aa8a-5845b7a2cc18",
+        "time": "2023-08-06T13:36:45.130Z",
+        "created_at": "2023-08-06T17:44:51.857Z",
+        "updated_at": "2023-08-06T20:16:27.519Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "e719ebe5-228a-4083-84f4-b315bc3aa3e3"
+      },
+      {
+        "id": "29f29059-16a1-4f37-9d94-7c4ca8d1f653",
+        "time": "2023-08-06T12:16:24.727Z",
+        "created_at": "2023-08-06T20:50:15.145Z",
+        "updated_at": "2023-08-07T05:05:55.172Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "17cd0151-6694-425b-9db5-5daf6c150009"
+      }
+    ],
+    "menu": [
+      {
+        "id": "6672fe55-5381-4dd5-a023-42777f891b8b",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T14:59:24.867Z",
+        "updated_at": "2023-08-07T04:45:02.928Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e5486f9f-f73c-4920-a4cb-00e1ee4fe3ce",
+        "name": "Main Courses",
+        "created_at": "2023-08-07T06:44:11.706Z",
+        "updated_at": "2023-08-06T22:00:50.982Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "88a3c318-8297-4c49-9970-7c7fc6da9186",
+        "name": "Desserts",
+        "created_at": "2023-08-07T02:38:29.243Z",
+        "updated_at": "2023-08-06T22:49:25.659Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "77c44d27-e4c3-4f79-82e9-e4a97ef88ca9",
+        "name": "Beverages",
+        "created_at": "2023-08-07T08:33:11.577Z",
+        "updated_at": "2023-08-07T08:40:31.631Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "32b07259-28b2-44ec-a6d9-4ba688e10b57",
+        "name": "Specials",
+        "created_at": "2023-08-07T07:03:18.338Z",
+        "updated_at": "2023-08-07T03:49:26.525Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "64f8028f-7701-4460-a1b8-26e0fdf8911d",
+        "number": 11761,
+        "status": "Available",
+        "created_at": "2023-08-07T03:54:58.582Z",
+        "updated_at": "2023-08-06T18:08:37.927Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "09837bcd-07d2-48f2-8ade-38b47f7509fc",
+        "number": 23437,
+        "status": "Occupied",
+        "created_at": "2023-08-06T10:25:19.162Z",
+        "updated_at": "2023-08-06T11:42:19.747Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "067474f9-1416-4379-8453-fd5b2492f0e4",
+        "number": 48532,
+        "status": "Reserved",
+        "created_at": "2023-08-06T13:07:19.713Z",
+        "updated_at": "2023-08-07T02:05:02.860Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0742da21-9ee2-4f93-8f84-b0bcd150659b",
+        "number": 27767,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T14:16:34.728Z",
+        "updated_at": "2023-08-07T01:13:25.731Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "016563ce-2daa-4023-a3e2-491d34a64f2a",
+        "number": 1826,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T13:53:42.455Z",
+        "updated_at": "2023-08-06T11:13:12.630Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "a993d34c-7f3b-42be-bd7a-ba23881dc734",
+        "time": "2023-08-07T06:46:35.986Z",
+        "created_at": "2023-08-06T16:46:06.251Z",
+        "updated_at": "2023-08-07T08:44:21.078Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "09837bcd-07d2-48f2-8ade-38b47f7509fc"
+      },
+      {
+        "id": "6447ef0f-c8af-4b41-a637-b28a38edc6ae",
+        "time": "2023-08-07T00:10:07.879Z",
+        "created_at": "2023-08-06T15:43:27.055Z",
+        "updated_at": "2023-08-06T10:32:56.114Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "09837bcd-07d2-48f2-8ade-38b47f7509fc"
+      },
+      {
+        "id": "ef3d78c6-8e52-4085-8970-4f55df60ea99",
+        "time": "2023-08-07T00:14:45.329Z",
+        "created_at": "2023-08-06T17:53:13.785Z",
+        "updated_at": "2023-08-06T16:53:08.211Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "016563ce-2daa-4023-a3e2-491d34a64f2a"
+      },
+      {
+        "id": "9d247c85-5f5b-4ae3-ad40-a9513ce664ce",
+        "time": "2023-08-06T10:05:18.619Z",
+        "created_at": "2023-08-06T17:57:28.000Z",
+        "updated_at": "2023-08-07T05:35:20.444Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "09837bcd-07d2-48f2-8ade-38b47f7509fc"
+      },
+      {
+        "id": "3d61859d-3db9-4725-b476-915f2855c463",
+        "time": "2023-08-07T04:31:15.495Z",
+        "created_at": "2023-08-07T06:47:55.012Z",
+        "updated_at": "2023-08-07T04:04:15.536Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "09837bcd-07d2-48f2-8ade-38b47f7509fc"
+      }
+    ],
+    "menu": [
+      {
+        "id": "4621963c-d002-45bd-b834-d8ef5e7c4077",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T16:34:12.569Z",
+        "updated_at": "2023-08-06T11:28:05.652Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e38a41f4-3e31-48e9-816b-85060fa08d79",
+        "name": "Main Courses",
+        "created_at": "2023-08-06T17:40:51.068Z",
+        "updated_at": "2023-08-06T12:39:41.959Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "dae7fe9b-8fbc-4b65-9ace-9ef0819ac546",
+        "name": "Desserts",
+        "created_at": "2023-08-07T08:42:05.629Z",
+        "updated_at": "2023-08-07T03:10:26.581Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "db9fe528-1bc4-4206-a37b-9e214ea67537",
+        "name": "Beverages",
+        "created_at": "2023-08-06T18:43:33.242Z",
+        "updated_at": "2023-08-06T21:24:51.468Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0e17325c-7c09-4e56-a30a-4f6b23ea1a77",
+        "name": "Specials",
+        "created_at": "2023-08-07T05:23:26.752Z",
+        "updated_at": "2023-08-07T09:10:30.532Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "86b652f9-1c52-4235-9bea-7e080608cab5",
+        "number": 86698,
+        "status": "Available",
+        "created_at": "2023-08-06T20:49:49.758Z",
+        "updated_at": "2023-08-07T00:50:50.069Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f38273bb-3b0e-4f0a-819c-79ab21d5dcee",
+        "number": 99491,
+        "status": "Occupied",
+        "created_at": "2023-08-07T03:16:39.474Z",
+        "updated_at": "2023-08-06T10:17:00.045Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "63ace3f5-fad5-436e-a3ae-d86f3024e075",
+        "number": 67701,
+        "status": "Reserved",
+        "created_at": "2023-08-07T08:07:47.808Z",
+        "updated_at": "2023-08-07T09:33:23.069Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "54d44747-ff80-4660-9d66-239251ce6978",
+        "number": 59476,
+        "status": "Out of Service",
+        "created_at": "2023-08-07T00:01:55.756Z",
+        "updated_at": "2023-08-07T09:47:59.805Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a4b52536-63b5-4fe9-9d61-6ce3bd2619e9",
+        "number": 29428,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-07T03:08:49.021Z",
+        "updated_at": "2023-08-06T13:32:21.010Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e202ed26-9273-43c7-ae02-a2d083207f05",
+        "time": "2023-08-06T13:49:32.798Z",
+        "created_at": "2023-08-06T23:35:56.162Z",
+        "updated_at": "2023-08-06T14:03:06.340Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "63ace3f5-fad5-436e-a3ae-d86f3024e075"
+      },
+      {
+        "id": "a7228aa3-d2d8-4311-8bdf-2b0e70f8b4e3",
+        "time": "2023-08-06T12:23:52.721Z",
+        "created_at": "2023-08-06T10:05:31.674Z",
+        "updated_at": "2023-08-06T19:58:50.299Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "a4b52536-63b5-4fe9-9d61-6ce3bd2619e9"
+      },
+      {
+        "id": "141699bf-6fe4-476d-b2e9-72ce95565436",
+        "time": "2023-08-07T05:52:42.036Z",
+        "created_at": "2023-08-06T21:06:10.721Z",
+        "updated_at": "2023-08-07T04:06:31.869Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "a4b52536-63b5-4fe9-9d61-6ce3bd2619e9"
+      },
+      {
+        "id": "769b088c-195d-4776-8a3d-58aec007bf04",
+        "time": "2023-08-07T07:10:51.840Z",
+        "created_at": "2023-08-06T18:34:09.457Z",
+        "updated_at": "2023-08-07T04:25:54.912Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "54d44747-ff80-4660-9d66-239251ce6978"
+      },
+      {
+        "id": "456d2604-df8e-42a2-8d67-69da2a5b2ece",
+        "time": "2023-08-06T15:10:23.393Z",
+        "created_at": "2023-08-06T22:50:51.295Z",
+        "updated_at": "2023-08-06T18:16:04.178Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "a4b52536-63b5-4fe9-9d61-6ce3bd2619e9"
+      }
+    ],
+    "menu": [
+      {
+        "id": "db83a396-a7e7-4c7c-84d7-9ba338208a6b",
+        "name": "Grilled Salmon",
+        "created_at": "2023-08-07T06:51:33.039Z",
+        "updated_at": "2023-08-06T16:28:14.662Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1c0b6512-2704-4d60-80ce-4e7c55409f61",
+        "name": "Margherita Pizza",
+        "created_at": "2023-08-07T03:26:28.513Z",
+        "updated_at": "2023-08-07T04:47:05.628Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7c152ed9-498a-4f6a-b1fe-119ccf27612c",
+        "name": "Chicken Alfredo Pasta",
+        "created_at": "2023-08-07T00:41:18.987Z",
+        "updated_at": "2023-08-06T13:45:21.577Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d3e1fca9-ffd4-4c6c-8831-c83b9c8806df",
+        "name": "Beef Burger",
+        "created_at": "2023-08-06T17:31:00.655Z",
+        "updated_at": "2023-08-06T14:03:46.072Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "05b0fa3c-32c2-4d62-9a13-a1a46aaf9545",
+        "name": "Vegetable Stir-Fry",
+        "created_at": "2023-08-07T09:22:39.543Z",
+        "updated_at": "2023-08-07T03:29:05.900Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "9e4cf6f7-fe9b-4daf-afd2-ab90dedd3214",
+        "number": 81521,
+        "status": "Available",
+        "created_at": "2023-08-06T18:42:12.096Z",
+        "updated_at": "2023-08-06T16:11:11.377Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "29409f20-5862-4046-b364-ae0a5e917fd8",
+        "number": 75935,
+        "status": "Occupied",
+        "created_at": "2023-08-07T02:13:09.215Z",
+        "updated_at": "2023-08-06T21:16:29.269Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "43856e89-ce36-4c2f-bb1b-48a95c819e05",
+        "number": 19069,
+        "status": "Reserved",
+        "created_at": "2023-08-07T04:43:55.058Z",
+        "updated_at": "2023-08-06T21:05:58.150Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a30f774b-7a78-4e77-85e7-ecd38b192fb1",
+        "number": 70455,
+        "status": "Out of Service",
+        "created_at": "2023-08-07T06:18:59.971Z",
+        "updated_at": "2023-08-06T12:32:30.708Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e1d1ace6-02f5-4310-8b32-ad245f2fdac6",
+        "number": 15043,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-07T03:38:00.315Z",
+        "updated_at": "2023-08-06T10:34:18.529Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "78ff63f6-3760-4264-95d1-279e4438900f",
+        "time": "2023-08-06T15:40:05.098Z",
+        "created_at": "2023-08-06T23:26:28.586Z",
+        "updated_at": "2023-08-06T17:36:51.165Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "43856e89-ce36-4c2f-bb1b-48a95c819e05"
+      },
+      {
+        "id": "0eba0856-843d-498c-895b-b6d5a568526a",
+        "time": "2023-08-06T10:52:57.261Z",
+        "created_at": "2023-08-07T09:06:54.382Z",
+        "updated_at": "2023-08-07T03:45:24.067Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "43856e89-ce36-4c2f-bb1b-48a95c819e05"
+      },
+      {
+        "id": "532bbf77-ae3a-4424-a9e3-132ba65cafd6",
+        "time": "2023-08-07T06:55:01.875Z",
+        "created_at": "2023-08-07T06:38:24.360Z",
+        "updated_at": "2023-08-06T10:38:53.068Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "29409f20-5862-4046-b364-ae0a5e917fd8"
+      },
+      {
+        "id": "bfc87d95-dd57-4a50-8cf1-ef5b8519e94f",
+        "time": "2023-08-07T02:51:10.354Z",
+        "created_at": "2023-08-06T14:39:13.383Z",
+        "updated_at": "2023-08-06T17:23:52.931Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "9e4cf6f7-fe9b-4daf-afd2-ab90dedd3214"
+      },
+      {
+        "id": "5bf25a81-34a9-4ecb-af0b-2dd687579c6f",
+        "time": "2023-08-06T18:08:10.343Z",
+        "created_at": "2023-08-06T22:43:55.600Z",
+        "updated_at": "2023-08-06T11:59:40.129Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "43856e89-ce36-4c2f-bb1b-48a95c819e05"
+      }
+    ],
+    "menu": [
+      {
+        "id": "726c8c8c-b24b-40b8-a77c-fb9db448c67d",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T13:50:06.848Z",
+        "updated_at": "2023-08-06T23:31:15.830Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "db585049-7715-4072-97f2-8744ef533cf5",
+        "name": "Main Courses",
+        "created_at": "2023-08-07T01:20:25.660Z",
+        "updated_at": "2023-08-06T20:23:51.520Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fce220dd-fb23-4e3b-ac39-033c557f7e8a",
+        "name": "Desserts",
+        "created_at": "2023-08-06T14:44:33.905Z",
+        "updated_at": "2023-08-07T05:57:27.492Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c0edd59b-387b-472e-b33f-d96a6f65d149",
+        "name": "Beverages",
+        "created_at": "2023-08-07T08:11:16.896Z",
+        "updated_at": "2023-08-06T11:17:19.825Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f1e5545e-fe7c-488a-91db-5bac06aaaf5a",
+        "name": "Specials",
+        "created_at": "2023-08-07T03:26:29.285Z",
+        "updated_at": "2023-08-06T12:44:34.864Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "9e7a404c-ee5b-4638-bcc3-c1f264330fbc",
+        "number": 14647,
+        "status": "Available",
+        "created_at": "2023-08-06T18:34:16.879Z",
+        "updated_at": "2023-08-06T20:07:56.152Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f2e2ecec-26a3-4ea7-a7e6-4881ce8040eb",
+        "number": 26447,
+        "status": "Occupied",
+        "created_at": "2023-08-06T15:37:15.350Z",
+        "updated_at": "2023-08-07T02:15:48.918Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "48a4bc27-f283-416b-804b-cf00e74b9777",
+        "number": 66104,
+        "status": "Reserved",
+        "created_at": "2023-08-06T23:40:02.162Z",
+        "updated_at": "2023-08-06T11:50:27.443Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "518001af-8b0b-4309-b12e-e82375c11d18",
+        "number": 276,
+        "status": "Out of Service",
+        "created_at": "2023-08-07T03:34:18.078Z",
+        "updated_at": "2023-08-06T13:10:37.034Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "33632c83-f874-44c5-8d49-4b5526b50855",
+        "number": 89648,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T16:32:48.227Z",
+        "updated_at": "2023-08-06T17:05:09.856Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2fdb377f-df90-45a4-8c97-aecd88e8872e",
+        "time": "2023-08-06T14:04:11.683Z",
+        "created_at": "2023-08-07T01:34:20.515Z",
+        "updated_at": "2023-08-06T16:34:34.856Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "518001af-8b0b-4309-b12e-e82375c11d18"
+      },
+      {
+        "id": "dc1504e5-5329-4aa7-8931-65173e92b8ff",
+        "time": "2023-08-07T09:29:49.299Z",
+        "created_at": "2023-08-07T03:53:13.568Z",
+        "updated_at": "2023-08-07T02:21:11.946Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "9e7a404c-ee5b-4638-bcc3-c1f264330fbc"
+      },
+      {
+        "id": "ab9044fa-a373-4f0c-a2d4-a69489278645",
+        "time": "2023-08-07T01:54:21.907Z",
+        "created_at": "2023-08-07T00:53:40.309Z",
+        "updated_at": "2023-08-07T05:32:13.881Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "48a4bc27-f283-416b-804b-cf00e74b9777"
+      },
+      {
+        "id": "31bb9ff9-828d-47f7-908d-338563845bdf",
+        "time": "2023-08-06T17:30:49.955Z",
+        "created_at": "2023-08-07T05:18:29.020Z",
+        "updated_at": "2023-08-06T10:08:12.748Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "33632c83-f874-44c5-8d49-4b5526b50855"
+      },
+      {
+        "id": "f9443712-5f8d-4d29-ae01-4e3e4ab08dfa",
+        "time": "2023-08-06T12:52:39.603Z",
+        "created_at": "2023-08-07T09:40:50.752Z",
+        "updated_at": "2023-08-07T04:47:13.362Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "33632c83-f874-44c5-8d49-4b5526b50855"
+      }
+    ],
+    "menu": [
+      {
+        "id": "ad8110d2-e0a8-4d13-bf59-155220cf8f8e",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T10:40:03.737Z",
+        "updated_at": "2023-08-06T10:41:03.934Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "69cc25f0-06af-4149-8ec2-b998d1595b9c",
+        "name": "Main Courses",
+        "created_at": "2023-08-06T18:08:29.327Z",
+        "updated_at": "2023-08-07T08:18:22.910Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ac80ba34-146c-4596-bdf1-ab9f9d9f9a97",
+        "name": "Desserts",
+        "created_at": "2023-08-06T14:25:37.334Z",
+        "updated_at": "2023-08-06T23:41:44.225Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "40e5c07c-c065-471f-b08f-8a827dff2b4e",
+        "name": "Beverages",
+        "created_at": "2023-08-07T00:25:23.778Z",
+        "updated_at": "2023-08-06T19:20:11.902Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "df91024e-30e7-48c6-b55a-6a8638a6229b",
+        "name": "Specials",
+        "created_at": "2023-08-06T20:27:51.129Z",
+        "updated_at": "2023-08-07T01:12:49.489Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "446eabc8-b4b4-4e3d-a62f-877ed27fdc73",
+        "number": 1421,
+        "status": "Available",
+        "created_at": "2023-08-06T22:49:17.244Z",
+        "updated_at": "2023-08-06T13:13:06.338Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cea21d44-5cfe-48c0-98e0-6c9e7631d636",
+        "number": 28759,
+        "status": "Occupied",
+        "created_at": "2023-08-07T02:17:43.344Z",
+        "updated_at": "2023-08-06T22:14:40.010Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8f59c114-db8c-4d34-bc1c-a9aab3ade113",
+        "number": 96314,
+        "status": "Reserved",
+        "created_at": "2023-08-06T12:58:13.638Z",
+        "updated_at": "2023-08-06T18:27:33.362Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bc8f670c-2cdf-4c7f-a252-fda3426d47eb",
+        "number": 16881,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T11:18:34.901Z",
+        "updated_at": "2023-08-07T09:15:04.773Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d96c2026-4b15-405f-a30b-b91429bd9d03",
+        "number": 48053,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T15:40:26.432Z",
+        "updated_at": "2023-08-07T01:28:24.038Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "b52232a9-1044-4821-94cc-7a162ab5ef4b",
+        "time": "2023-08-06T11:23:24.455Z",
+        "created_at": "2023-08-06T15:36:48.720Z",
+        "updated_at": "2023-08-06T21:24:43.492Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "8f59c114-db8c-4d34-bc1c-a9aab3ade113"
+      },
+      {
+        "id": "cc0735ef-0da0-4c6e-8f71-39f3d4291281",
+        "time": "2023-08-07T02:26:51.371Z",
+        "created_at": "2023-08-06T15:03:58.960Z",
+        "updated_at": "2023-08-07T00:44:01.479Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "446eabc8-b4b4-4e3d-a62f-877ed27fdc73"
+      },
+      {
+        "id": "cf09efb6-4172-4c6f-8bb9-eb718bfa1868",
+        "time": "2023-08-06T15:41:02.592Z",
+        "created_at": "2023-08-06T20:25:08.686Z",
+        "updated_at": "2023-08-07T08:43:30.763Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "cea21d44-5cfe-48c0-98e0-6c9e7631d636"
+      },
+      {
+        "id": "beac4bfd-01c6-457f-8d0c-86241a6c98f0",
+        "time": "2023-08-07T00:11:58.166Z",
+        "created_at": "2023-08-07T07:37:20.144Z",
+        "updated_at": "2023-08-06T20:21:37.348Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "8f59c114-db8c-4d34-bc1c-a9aab3ade113"
+      },
+      {
+        "id": "632fff8c-bf71-49d7-9acb-02dd20bb4604",
+        "time": "2023-08-06T14:05:43.479Z",
+        "created_at": "2023-08-07T08:42:46.533Z",
+        "updated_at": "2023-08-07T02:34:46.103Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "8f59c114-db8c-4d34-bc1c-a9aab3ade113"
+      }
+    ],
+    "menu": [
+      {
+        "id": "0771f33c-85e4-41d7-849d-5f5169dd504f",
+        "name": "Grilled Salmon",
+        "created_at": "2023-08-06T22:49:54.373Z",
+        "updated_at": "2023-08-06T21:08:40.165Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "911868f9-d8ce-41a8-8cd4-a2c1811aa1f9",
+        "name": "Margherita Pizza",
+        "created_at": "2023-08-07T09:36:20.849Z",
+        "updated_at": "2023-08-06T10:19:59.747Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "894e81e8-3c9b-4178-8348-d59d66533595",
+        "name": "Chicken Alfredo Pasta",
+        "created_at": "2023-08-06T12:05:20.928Z",
+        "updated_at": "2023-08-06T23:13:07.274Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6b7a91ea-7a10-4b5e-b571-ac16901f8e29",
+        "name": "Beef Burger",
+        "created_at": "2023-08-07T00:03:13.866Z",
+        "updated_at": "2023-08-06T18:12:00.583Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bfe44548-0ee9-476a-8c99-d7e45b02a7aa",
+        "name": "Vegetable Stir-Fry",
+        "created_at": "2023-08-06T11:03:05.826Z",
+        "updated_at": "2023-08-06T15:49:28.590Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "3ade9cfd-9209-49b4-b578-9c5e957ea956",
+        "number": 4694,
+        "status": "Available",
+        "created_at": "2023-08-07T08:02:21.246Z",
+        "updated_at": "2023-08-06T23:14:44.049Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "13c3f86b-e78c-41b7-af39-3e224982d7f6",
+        "number": 52454,
+        "status": "Occupied",
+        "created_at": "2023-08-06T15:39:39.667Z",
+        "updated_at": "2023-08-06T10:54:58.460Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "74fb6c28-dda6-473c-afd7-8433a2b41b77",
+        "number": 93873,
+        "status": "Reserved",
+        "created_at": "2023-08-06T15:45:45.703Z",
+        "updated_at": "2023-08-07T04:52:52.112Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cf6ea658-3e6a-4115-81ed-9d496d00c03c",
+        "number": 77277,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T19:43:02.186Z",
+        "updated_at": "2023-08-06T19:19:15.114Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "96b3b051-9109-4074-8112-bc56b5185c00",
+        "number": 55708,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-07T09:57:19.306Z",
+        "updated_at": "2023-08-07T04:06:52.172Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7aa94c34-81f1-43bb-b1f1-e31e63e66fad",
+        "time": "2023-08-06T20:30:56.384Z",
+        "created_at": "2023-08-07T08:14:32.967Z",
+        "updated_at": "2023-08-06T14:49:10.881Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "74fb6c28-dda6-473c-afd7-8433a2b41b77"
+      },
+      {
+        "id": "6f03aca0-72d4-4bd1-8c31-a196e2c61f54",
+        "time": "2023-08-07T09:03:24.428Z",
+        "created_at": "2023-08-06T13:42:32.349Z",
+        "updated_at": "2023-08-07T09:11:15.068Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "13c3f86b-e78c-41b7-af39-3e224982d7f6"
+      },
+      {
+        "id": "dc8d4c51-05a3-4964-b46f-41970731d396",
+        "time": "2023-08-06T18:40:52.512Z",
+        "created_at": "2023-08-07T01:03:47.816Z",
+        "updated_at": "2023-08-06T17:39:46.698Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "96b3b051-9109-4074-8112-bc56b5185c00"
+      },
+      {
+        "id": "0b729389-a312-4543-b7c6-2793a3064b63",
+        "time": "2023-08-07T01:52:44.174Z",
+        "created_at": "2023-08-06T20:51:41.032Z",
+        "updated_at": "2023-08-07T01:36:24.725Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "96b3b051-9109-4074-8112-bc56b5185c00"
+      },
+      {
+        "id": "d3056f90-a025-4097-9dbd-8c9b682f70fd",
+        "time": "2023-08-07T02:48:55.884Z",
+        "created_at": "2023-08-06T11:11:14.678Z",
+        "updated_at": "2023-08-07T08:24:33.497Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "3ade9cfd-9209-49b4-b578-9c5e957ea956"
+      }
+    ],
+    "menu": [
+      {
+        "id": "3fa0e13f-98e4-4329-a85b-a9da526c3090",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T18:13:13.764Z",
+        "updated_at": "2023-08-06T10:40:10.822Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "20a4f167-3133-4045-8950-75cebcf03755",
+        "name": "Main Courses",
+        "created_at": "2023-08-07T02:14:57.730Z",
+        "updated_at": "2023-08-06T21:52:18.124Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f9a7ffe6-3ef8-424c-a661-47abf3ac3122",
+        "name": "Desserts",
+        "created_at": "2023-08-07T03:39:33.219Z",
+        "updated_at": "2023-08-07T05:27:40.826Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cb690a5f-25a3-47da-aa44-9005e394bf7b",
+        "name": "Beverages",
+        "created_at": "2023-08-07T04:45:38.553Z",
+        "updated_at": "2023-08-06T16:03:37.714Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2aefee27-372b-49a6-88b4-ee4fb9d357bd",
+        "name": "Specials",
+        "created_at": "2023-08-06T22:26:49.247Z",
+        "updated_at": "2023-08-07T09:47:59.469Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "e3c0fb06-c13e-4334-9d92-1f0469f4d5fe",
+        "number": 79161,
+        "status": "Available",
+        "created_at": "2023-08-06T21:10:06.601Z",
+        "updated_at": "2023-08-06T19:09:11.015Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1943c6b6-ff05-432e-9b4d-29a564062f3c",
+        "number": 70706,
+        "status": "Occupied",
+        "created_at": "2023-08-07T03:05:10.258Z",
+        "updated_at": "2023-08-07T05:41:29.330Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d77811ef-d465-4df0-961a-2b18ba4d8550",
+        "number": 5290,
+        "status": "Reserved",
+        "created_at": "2023-08-06T13:38:23.476Z",
+        "updated_at": "2023-08-07T02:13:52.798Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "67c551c4-5732-4698-964e-ef0bf3bbf69a",
+        "number": 1283,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T15:45:04.820Z",
+        "updated_at": "2023-08-06T13:07:55.037Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f20eef59-e8fa-4b5c-a3a1-f80f235451eb",
+        "number": 89519,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T10:50:17.399Z",
+        "updated_at": "2023-08-06T15:31:21.429Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2bf7d2ef-78d6-4f0b-94b6-cb7aff6953b8",
+        "time": "2023-08-06T22:37:28.720Z",
+        "created_at": "2023-08-06T23:19:58.879Z",
+        "updated_at": "2023-08-06T16:04:34.383Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "67c551c4-5732-4698-964e-ef0bf3bbf69a"
+      },
+      {
+        "id": "0b81bfc8-1bbd-4824-9b10-071a0915ff38",
+        "time": "2023-08-07T05:27:41.754Z",
+        "created_at": "2023-08-06T12:43:10.335Z",
+        "updated_at": "2023-08-07T06:47:21.970Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "f20eef59-e8fa-4b5c-a3a1-f80f235451eb"
+      },
+      {
+        "id": "3966409e-6fac-4db5-ab2f-a14a578329d3",
+        "time": "2023-08-07T05:52:03.999Z",
+        "created_at": "2023-08-06T16:59:16.600Z",
+        "updated_at": "2023-08-06T16:31:33.464Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "f20eef59-e8fa-4b5c-a3a1-f80f235451eb"
+      },
+      {
+        "id": "18887398-8d13-472c-a91a-ab12aaa087dd",
+        "time": "2023-08-07T09:30:53.653Z",
+        "created_at": "2023-08-07T06:41:32.743Z",
+        "updated_at": "2023-08-06T12:37:55.153Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "1943c6b6-ff05-432e-9b4d-29a564062f3c"
+      },
+      {
+        "id": "dacadaf4-c7c5-4093-9c7f-1dd7e244a2da",
+        "time": "2023-08-07T02:42:46.266Z",
+        "created_at": "2023-08-06T11:14:34.628Z",
+        "updated_at": "2023-08-07T08:35:45.610Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "d77811ef-d465-4df0-961a-2b18ba4d8550"
+      }
+    ],
+    "menu": [
+      {
+        "id": "c2530276-7d48-4b67-8319-074ff9d4f580",
+        "name": "Appetizers",
+        "created_at": "2023-08-06T18:36:29.954Z",
+        "updated_at": "2023-08-06T18:16:19.320Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8852f2c6-6b55-4c1a-be16-03d3ad368950",
+        "name": "Main Courses",
+        "created_at": "2023-08-06T14:25:24.924Z",
+        "updated_at": "2023-08-07T00:52:32.680Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9fb67ced-7202-4f6c-8c2d-a2959e099db4",
+        "name": "Desserts",
+        "created_at": "2023-08-06T14:14:56.494Z",
+        "updated_at": "2023-08-06T10:50:50.315Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c913edd5-a100-4554-a967-0c8650bffdc2",
+        "name": "Beverages",
+        "created_at": "2023-08-06T16:54:40.807Z",
+        "updated_at": "2023-08-06T13:28:24.120Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3bdb01ef-7916-43ae-b9de-c5255593e779",
+        "name": "Specials",
+        "created_at": "2023-08-06T22:14:44.915Z",
+        "updated_at": "2023-08-07T02:50:13.492Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "045e47ab-d978-4967-a55e-0b256bf3122e",
+        "number": 36930,
+        "status": "Available",
+        "created_at": "2023-08-06T13:07:26.979Z",
+        "updated_at": "2023-08-06T10:30:02.532Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8c2d885b-66d3-472f-bfcd-534e8422f5cc",
+        "number": 20588,
+        "status": "Occupied",
+        "created_at": "2023-08-07T05:24:32.921Z",
+        "updated_at": "2023-08-07T04:26:49.034Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1cc2e582-8bed-4bdb-aad2-911a7eea8739",
+        "number": 49295,
+        "status": "Reserved",
+        "created_at": "2023-08-07T02:28:12.053Z",
+        "updated_at": "2023-08-06T17:20:22.218Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a5282e10-55ed-425b-be1f-eefb639608c9",
+        "number": 21602,
+        "status": "Out of Service",
+        "created_at": "2023-08-06T15:26:26.115Z",
+        "updated_at": "2023-08-07T09:53:50.387Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6f4802ad-14d2-44a0-b1cf-3f1313c9b78a",
+        "number": 16775,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T12:00:30.607Z",
+        "updated_at": "2023-08-06T20:04:49.613Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "1cb4ffff-fdde-4f5d-9258-308e5542d107",
+        "time": "2023-08-06T16:15:14.886Z",
+        "created_at": "2023-08-06T15:44:38.082Z",
+        "updated_at": "2023-08-06T12:42:48.014Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "8c2d885b-66d3-472f-bfcd-534e8422f5cc"
+      },
+      {
+        "id": "ecaa3a53-3ed3-436d-b364-cf0b58e69f45",
+        "time": "2023-08-06T10:50:42.648Z",
+        "created_at": "2023-08-07T07:47:22.374Z",
+        "updated_at": "2023-08-07T02:01:58.671Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "a5282e10-55ed-425b-be1f-eefb639608c9"
+      },
+      {
+        "id": "ea3b0619-cd22-444b-81d8-685748ef7c3d",
+        "time": "2023-08-06T10:05:52.070Z",
+        "created_at": "2023-08-06T23:31:56.077Z",
+        "updated_at": "2023-08-06T10:30:38.729Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "1cc2e582-8bed-4bdb-aad2-911a7eea8739"
+      },
+      {
+        "id": "dd0f4be7-3e6d-40a6-abb9-8d7e8ee4c3c2",
+        "time": "2023-08-06T23:50:27.925Z",
+        "created_at": "2023-08-07T05:46:36.085Z",
+        "updated_at": "2023-08-06T20:48:56.243Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "8c2d885b-66d3-472f-bfcd-534e8422f5cc"
+      },
+      {
+        "id": "11a40311-3bff-4fa1-82ca-f42c6c9da337",
+        "time": "2023-08-07T04:58:57.709Z",
+        "created_at": "2023-08-06T23:32:54.277Z",
+        "updated_at": "2023-08-06T17:34:16.668Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "6f4802ad-14d2-44a0-b1cf-3f1313c9b78a"
+      }
+    ],
+    "menu": [
+      {
+        "id": "eec58513-b865-403a-a6d3-b449c43f11d1",
+        "name": "Grilled Salmon",
+        "created_at": "2023-08-07T07:05:33.586Z",
+        "updated_at": "2023-08-06T23:36:20.096Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "849c93e9-87ba-4670-a5a7-4256b5c2f4fa",
+        "name": "Margherita Pizza",
+        "created_at": "2023-08-07T02:05:36.772Z",
+        "updated_at": "2023-08-06T15:38:18.144Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9d71d9dc-d2db-40c8-9391-38262435ba15",
+        "name": "Chicken Alfredo Pasta",
+        "created_at": "2023-08-07T07:28:06.509Z",
+        "updated_at": "2023-08-07T08:45:00.076Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8f205a0e-ec8a-41f0-bf60-122311094355",
+        "name": "Beef Burger",
+        "created_at": "2023-08-07T09:58:16.427Z",
+        "updated_at": "2023-08-06T12:20:39.263Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4b3b942a-2035-40ce-9c43-d21324cda2b2",
+        "name": "Vegetable Stir-Fry",
+        "created_at": "2023-08-07T03:18:29.323Z",
+        "updated_at": "2023-08-06T21:10:17.007Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "1f4ff91e-3979-402d-8c96-cb209805725a",
+        "number": 14948,
+        "status": "Available",
+        "created_at": "2023-08-06T22:28:44.632Z",
+        "updated_at": "2023-08-07T04:34:05.467Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "343d61a5-2c00-4642-b2a1-9870f148dd59",
+        "number": 71956,
+        "status": "Occupied",
+        "created_at": "2023-08-06T11:34:58.896Z",
+        "updated_at": "2023-08-06T12:26:02.419Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a8c53a7e-f545-4eba-8640-69201c637569",
+        "number": 52281,
+        "status": "Reserved",
+        "created_at": "2023-08-06T23:13:47.027Z",
+        "updated_at": "2023-08-07T02:24:00.233Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4728cd14-4119-4c21-8a9a-c93c3d4d7aad",
+        "number": 38527,
+        "status": "Out of Service",
+        "created_at": "2023-08-07T05:06:38.824Z",
+        "updated_at": "2023-08-06T17:45:56.311Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1b10bdb4-a31e-42fb-a746-fd8f537df1ed",
+        "number": 50975,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-06T19:20:40.017Z",
+        "updated_at": "2023-08-07T06:35:25.263Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d04592d6-6fdb-4c41-ba93-6d3aa80970ee",
+        "time": "2023-08-06T23:01:27.327Z",
+        "created_at": "2023-08-07T09:48:01.348Z",
+        "updated_at": "2023-08-06T20:48:41.369Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "1f4ff91e-3979-402d-8c96-cb209805725a"
+      },
+      {
+        "id": "d0dd14b8-3a23-464e-87a2-6ac8e92223a8",
+        "time": "2023-08-07T04:39:28.679Z",
+        "created_at": "2023-08-07T08:06:33.921Z",
+        "updated_at": "2023-08-06T18:30:21.491Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "1f4ff91e-3979-402d-8c96-cb209805725a"
+      },
+      {
+        "id": "9ae4bf60-8b44-4e3f-bbb4-b7493330ae7b",
+        "time": "2023-08-07T07:15:33.810Z",
+        "created_at": "2023-08-07T01:36:26.582Z",
+        "updated_at": "2023-08-07T08:29:11.713Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "1b10bdb4-a31e-42fb-a746-fd8f537df1ed"
+      },
+      {
+        "id": "90cc6eb2-52f7-41d3-8ca7-3367e70fea93",
+        "time": "2023-08-07T07:39:24.049Z",
+        "created_at": "2023-08-06T14:26:30.368Z",
+        "updated_at": "2023-08-07T01:40:44.557Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "343d61a5-2c00-4642-b2a1-9870f148dd59"
+      },
+      {
+        "id": "fdbf2d4e-f8b6-4257-9e80-0c988022a90b",
+        "time": "2023-08-06T20:16:36.382Z",
+        "created_at": "2023-08-06T10:38:06.208Z",
+        "updated_at": "2023-08-07T09:33:22.653Z",
+        "guest_id": "user_entity_pk",
+        "table_id": "4728cd14-4119-4c21-8a9a-c93c3d4d7aad"
+      }
+    ],
+    "menu": [
+      {
+        "id": "a99c54e6-3584-4424-a8ae-b7435e13af32",
+        "name": "Appetizers",
+        "created_at": "2023-08-07T05:05:24.250Z",
+        "updated_at": "2023-08-06T11:08:32.359Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "960d6f7c-2669-4e07-a2a7-4a2ac5d031d3",
+        "name": "Main Courses",
+        "created_at": "2023-08-06T20:25:43.652Z",
+        "updated_at": "2023-08-06T21:28:15.385Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e5ff65da-7aa8-4c53-bc41-5ac2fcfcd078",
+        "name": "Desserts",
+        "created_at": "2023-08-06T18:29:04.722Z",
+        "updated_at": "2023-08-06T16:36:43.302Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0934f446-4f1d-4d49-90bc-fefd02dd7f68",
+        "name": "Beverages",
+        "created_at": "2023-08-06T21:37:47.138Z",
+        "updated_at": "2023-08-06T23:17:11.223Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "97700bcc-5768-4002-8af5-767de27a46bc",
+        "name": "Specials",
+        "created_at": "2023-08-07T03:05:37.892Z",
+        "updated_at": "2023-08-06T23:01:32.143Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ]
+  }
+]
